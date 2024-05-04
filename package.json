@@ -1,17 +1,27 @@
 {
-  "name": "tutorial",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/check": "^0.4.0",
-    "astro": "^4.1.1",
-    "typescript": "^5.3.3"
-  }
+    "name": "tutorial",
+    "type": "module",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro check && astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "@astrojs/check": "^0.4.0",
+        "astro": "^4.1.1",
+        "typescript": "^5.3.3"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^6.18.1",
+        "@typescript-eslint/parser": "^6.18.1",
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-astro": "^0.31.0",
+        "eslint-plugin-jsx-a11y": "^6.8.0",
+        "eslint-plugin-prettier": "^5.1.2",
+        "prettier": "^3.1.1"
+    }
 }
